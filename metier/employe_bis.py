@@ -2,24 +2,23 @@ from agence import Agence
 from voiture import Voiture
 from client import Client
 
+
 class Employe(object):
-    def __init__(self, nom, prenom, agence, statut):
+    def __init__(self, nom, prenom, agence):
         """
-        Constructeur de la classe Employé
+        Constructeur de la classe Employe
+
         :param nom:
         :type nom: string
         :param prenom:
         :type prenom: string
-        :param agence: agence où travaille l'employé, ça peut être le siège.
+        :param agence:
         :type agence: Agence
-        :param statut: statut de l'employé : vendeur, respo d'agence ou employé du siège
-        :type statut: string
         """
 
         self._nom = nom
         self._prenom = prenom
         self._agence = agence
-        self._statut = statut
 
     # On définit les accesseurs des attributs
     @property
@@ -34,18 +33,18 @@ class Employe(object):
     def agence(self):
         return self._agence
 
-    @property
-    def statut(self):
-        return self._statut
+
+class Vendeur(Employe):
+    """
+    Premier type d'Employe, le vendeur, qui peut faire les trajets, créer une fiche client, louer les voitures et calculer le coût d'une location.
+    """
 
     def __str__(self):
-        return "{} {}, {} à l'agence {}".format(self._nom, self._prenom, self._statut, self._agence.nom)
-
-
+        return "{} {}, vendeur de l'agence {}".format(self._nom, self._prenom, self._agence.nom)
 
     def creer_fiche_client(self, nom_client, prenom_client, date_naiss_client):
         """
-        Fonction qui crée une nouvelle fiche client (objet client de la base de donnée). Disponible qu'aux vendeurs
+        Fonction qui crée une nouvelle fiche client (objet client de la base de donnée)
 
         :param nom_client:
         :type nom_client: string
@@ -56,10 +55,9 @@ class Employe(object):
         """
         pass
 
-
     def louer_voiture(self, client, voiture, trajet):
         """
-        Fonction qui initie l'ensemble du processus de location. Disponible qu'aux vendeurs
+        Fonction qui initie l'ensemble du processus de location
 
         :param client:
         :type client: Client
@@ -70,10 +68,9 @@ class Employe(object):
         """
         pass
 
-
     def creer_trajet(self, date_depart, date_arrivee, lieu_depart, lieu_arrivee, voiture, client):
         """
-        Fonction qui crée un nouvel objet trajet, et l'ajoute dans la BDD. Disponible qu'aux vendeurs
+        Fonction qui crée un nouvel objet trajet, et l'ajoute dans la BDD.
 
         :param date_depart:
         :type date_depart: date
@@ -90,10 +87,9 @@ class Employe(object):
         """
         pass
 
-
     def calculer_cout(self, trajet):
         """
-        Fonction qui calcule le coût de location pour un certain trajet. Disponible qu'aux vendeurs
+        Fonction qui calcule le coût de location pour un certain trajet
 
         :param trajet:
         :type trajet: Trajet
@@ -101,9 +97,28 @@ class Employe(object):
         pass
 
 
+        # penser à mettre ici une fonction pour changer l'etat de la voiture !!! Si on choisit cette solution !
+
+
+class Responsable(Employe):
+    """
+    Second type d'Employé, le responsable d'agence, qui peut déterminer si une voiture doit être immobilisée pour entretien
+    """
+
+    def __str__(self):
+        return "{} {}, responsable de l'agence {}".format(self._nom, self._prenom, self._agence.nom)
+
+        # penser à mettre ici une fonction pour changer l'etat de la voiture !!! Si on choisit cette solution !
+
+
+class Employe_siege(Employe):
+    """
+    Troisième et dernier type d'employé, celui du siège, qui peut décider de transferts de voitures entre Agence
+    """
+
     def transferer_voiture(self, agence_depart, agence_arrivee, liste_voiture):
         """
-        Fonction qui permet de transférer certaines voitures d'une agence à une autre. Disponible qu'aux employés du siège.
+        Fonction qui permet de transférer certaines voitures d'une agence à une autre
 
         :param agence_depart:
         :type agence_depart: Agence
@@ -115,4 +130,4 @@ class Employe(object):
         pass
 
 
-    # voir ici comment ajouter une fonction qui met les voiture dans l'Etat "en entretien" si on choisit cette solution.
+        # penser à mettre ici une fonction pour changer l'etat de la voiture !!! Si on choisit cette solution !
