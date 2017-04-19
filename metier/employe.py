@@ -126,7 +126,7 @@ class Responsable(Vendeur):
         """
         pass
 
-    def
+    def recruter
 
 
 class Employe_siege(Employe):
