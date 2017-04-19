@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7f4f317-4105-453a-9fc5-5881b2eac9e2" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ihm/console.py" afterPath="$PROJECT_DIR$/ihm/console.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metier/employe.py" afterPath="$PROJECT_DIR$/metier/employe.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metier/trajet.py" afterPath="$PROJECT_DIR$/metier/trajet.py" />
+>>>>>>> fonction_alex
     </list>
     <ignored path="Code.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,8 +51,13 @@
       <file leaf-file-name="trajet.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/metier/trajet.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="539">
               <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+=======
+            <state relative-caret-position="419">
+              <caret line="76" column="24" lean-forward="false" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+>>>>>>> fonction_alex
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -67,8 +78,13 @@
       <file leaf-file-name="employe.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/metier/employe.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1695">
               <caret line="113" column="7" lean-forward="true" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
+=======
+            <state relative-caret-position="2010">
+              <caret line="134" column="50" lean-forward="false" selection-start-line="134" selection-start-column="50" selection-end-line="134" selection-end-column="50" />
+>>>>>>> fonction_alex
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
                 <marker date="1492589091000" expanded="true" signature="712:2192" ph="..." />
@@ -81,6 +97,7 @@
         <entry file="file://$PROJECT_DIR$/ihm/console.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="269">
+<<<<<<< HEAD
               <caret line="42" column="45" lean-forward="true" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
               <folding>
                 <marker date="1492589091000" expanded="true" signature="598:708" ph="..." />
@@ -89,6 +106,10 @@
                 <marker date="1492589091000" expanded="true" signature="753:982" ph="&quot;&quot;&quot;Méthode de choix d'une action parmi une liste de propositions...&quot;&quot;&quot;" />
                 <marker date="1492589091000" expanded="true" signature="1311:1459" ph="&quot;&quot;&quot;Méthode pour demander à l'utilisateur de saisir un texte...&quot;&quot;&quot;" />
               </folding>
+=======
+              <caret line="41" column="47" lean-forward="true" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+              <folding />
+>>>>>>> fonction_alex
             </state>
           </provider>
         </entry>
@@ -880,11 +901,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/metier/employe.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1695">
           <caret line="113" column="7" lean-forward="true" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
             <marker date="1492589091000" expanded="true" signature="712:2192" ph="..." />
+=======
+        <state relative-caret-position="2010">
+          <caret line="134" column="50" lean-forward="false" selection-start-line="134" selection-start-column="50" selection-end-line="134" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+>>>>>>> fonction_alex
           </folding>
         </state>
       </provider>
@@ -892,6 +920,7 @@
     <entry file="file://$PROJECT_DIR$/ihm/console.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
+<<<<<<< HEAD
           <caret line="42" column="45" lean-forward="true" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
           <folding>
             <marker date="1492589091000" expanded="true" signature="598:708" ph="..." />
@@ -900,13 +929,22 @@
             <marker date="1492589091000" expanded="true" signature="753:982" ph="&quot;&quot;&quot;Méthode de choix d'une action parmi une liste de propositions...&quot;&quot;&quot;" />
             <marker date="1492589091000" expanded="true" signature="1311:1459" ph="&quot;&quot;&quot;Méthode pour demander à l'utilisateur de saisir un texte...&quot;&quot;&quot;" />
           </folding>
+=======
+          <caret line="41" column="47" lean-forward="true" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+          <folding />
+>>>>>>> fonction_alex
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/metier/trajet.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="539">
           <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+=======
+        <state relative-caret-position="419">
+          <caret line="76" column="24" lean-forward="false" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+>>>>>>> fonction_alex
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>

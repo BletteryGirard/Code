@@ -90,6 +90,25 @@ class Vendeur(Employe):
         pass
 
 
+    def creer_trajet(self, date_debut, date_fin, lieu_debut, lieu_arrivee, distance):
+        """
+        Fonction qui crée le trajet effectué par le client.
+
+        :param date_debut:
+        :type date_debut: date
+        :param date_fin:
+        :type date_fin: date
+        :param lieu_debut:
+        :type lieu_debut: Agence
+        :param lieu_arrivee:
+        :type lieu_arrivee: Agence
+        :param distance:
+        :type distance: integer
+        """
+        pass
+
+
+
 class Responsable(Vendeur):
     """
     Second type d'Employé, le responsable d'agence, qui peut déterminer si une voiture doit être immobilisée pour entretien
@@ -107,10 +126,13 @@ class Responsable(Vendeur):
         """
         pass
 
+    def
+
 
 class Employe_siege(Employe):
     """
-    Troisième et dernier type d'employé, celui du siège, qui peut décider de transferts de voitures entre Agence
+    Troisième et dernier type d'employé, celui du siège, qui peut décider de transferts de voitures entre Agence ou bien
+    calculer les statistiques propre à une agence.
     """
 
     def transferer_voiture(self, agence_depart, agence_arrivee, liste_voiture):

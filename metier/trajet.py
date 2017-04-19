@@ -3,12 +3,12 @@ from client import Client
 from voiture import Voiture
 
 class Trajet(object):
-    def __init__(self, date_depart, date_fin, lieu_depart, lieu_arrivee, distance, voiture, client):
+    def __init__(self, date_debut, date_fin, lieu_depart, lieu_arrivee, distance, voiture, client):
         """
         Constructeur de la classe Trajet
 
-        :param date_depart:
-        :type date_depart: date
+        :param date_debut:
+        :type date_debut: date
         :param date_fin:
         :type date_fin: date
         :param lieu_depart:
@@ -23,7 +23,7 @@ class Trajet(object):
         :type client: Client
         """
 
-        self._date_depart = date_depart
+        self._date_debut = date_debut
         self._date_fin = date_fin
         self._lieu_depart = lieu_depart
         self._lieu_arrivee = lieu_arrivee
@@ -33,8 +33,8 @@ class Trajet(object):
 
     # On définit les accesseurs des attributs
     @property
-    def date_depart(self):
-        return self._date_depart
+    def date_debut(self):
+        return self._date_debut
 
     @property
     def date_fin(self):
@@ -61,11 +61,11 @@ class Trajet(object):
         return self._client
 
     def __str__(self):
-        return " Trajet de {} à {}, du {} au {}, en {}".format(self._lieu_depart, self._lieu_arrivee,self._date_depart,self._date_fin, self._voiture)
+        return " Trajet de {} à {}, du {} au {}, en {}".format(self._lieu_depart, self._lieu_arrivee,self._date_debut,self._date_fin, self._voiture)
 
 
 
-    def changer_lieu(self, nouveau_lieu):
+    def changer_lieu_arrivee(self, nouveau_lieu):
         """
         Fonction qui permet de changer le lieu d'arrivée d'un trajet
 
@@ -74,7 +74,7 @@ class Trajet(object):
         """
         pass
 
-    def changer_date(self, nouvelle_date):
+    def changer_date_fin(self, nouvelle_date):
         """
         Fonction qui permet de changer la date d'arrivée d'un trajet
 
