@@ -7,7 +7,7 @@ python_version = sys.version_info.major
 #    # url: http://stackoverflow.com/questions/5074225/python-unexpected-eof-while-parsing
 #    from future.builtins import input
 
-logging.basicConfig(filename='pokemon.log', level=logging.INFO, format='%(asctime)s -- %(levelname)s -- %(message)s')
+logging.basicConfig(filename='location.log', level=logging.INFO, format='%(asctime)s -- %(levelname)s -- %(message)s')
 
 
 def afficher(msg):
