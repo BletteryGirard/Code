@@ -24,7 +24,7 @@ def logger(msg):
     """
     Log d'un message dans un fichier
 
-    :param msg: message à logguer
+    :param msg: message à logger
     """
     logging.info(msg)
 
