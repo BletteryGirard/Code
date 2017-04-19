@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 from agence import Agence
 from voiture import Voiture
 from client import Client
@@ -11,7 +10,7 @@ class Employe(object):
 
         :param nom: nom de l'employe
         :type nom: string
-        :param prenom: prneom de l'employe
+        :param prenom: prenom de l'employe
         :type prenom: string
         :param agence: nom de l'agence
         :type agence: Agence
@@ -127,7 +126,9 @@ class Responsable(Vendeur):
         """
         pass
 
+
     #def recruter_vendeur(self):
+
 
 class Employe_siege(Employe):
     """
@@ -155,10 +156,7 @@ class Employe_siege(Employe):
         :return:
         """
         pass
-=======
-from agence import Agence
-from voiture import Voiture
-from client import Client
+
 
 
 class Employe(object):
@@ -294,4 +292,4 @@ class Employe_siege(Employe):
         :return:
         """
         pass
->>>>>>> Stashed changes
+
