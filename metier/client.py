@@ -8,15 +8,12 @@ class Client(object):
         :param prenom:
         :type prenom: string
         :param date_naiss:
-        :type date_naiss: date
-        :param liste_trajets: liste des trajets déjà effectués par le client, si non renseigné, elle est vide, c'est un nouveau client
-        :type liste_trajets: liste de Trajet
+        :type date_naissance: date
         """
 
         self._nom = nom
         self._prenom = prenom
         self._date_naiss = date_naiss
-        self._liste_trajets = liste_trajets
 
     # On définit les accesseurs des attributs
     @property
@@ -31,9 +28,6 @@ class Client(object):
     def date_naiss(self):
         return self._date_naiss
 
-    @property
-    def liste_trajets(self):
-        return self._liste_trajets
 
     def __str__(self):
         return "{} {}, né(e) le {}".format(self._nom, self._prenom, self._date_naiss)

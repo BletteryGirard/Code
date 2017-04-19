@@ -36,14 +36,5 @@ class Agence(object):
         return self._liste_voiture
 
     def __str__(self):
-        return self._nom
+        return "{}, {}".format(self._nom, self._ville)
 
-
-
-    def calc_stats(self):
-        """
-        Fonction qui permet d'effectuer les calculs statistiques sur une Agence
-
-        :return:
-        """
-        pass

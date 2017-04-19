@@ -3,14 +3,14 @@ from client import Client
 from voiture import Voiture
 
 class Trajet(object):
-    def __init__(self, date_depart, date_arrivee, lieu_depart, lieu_arrivee, distance, voiture, client):
+    def __init__(self, date_depart, date_fin, lieu_depart, lieu_arrivee, distance, voiture, client):
         """
         Constructeur de la classe Trajet
 
         :param date_depart:
         :type date_depart: date
-        :param date_arrivee:
-        :type date_arrivee: date
+        :param date_fin:
+        :type date_fin: date
         :param lieu_depart:
         :type lieu_depart: Agence
         :param lieu_arrivee:
@@ -24,7 +24,7 @@ class Trajet(object):
         """
 
         self._date_depart = date_depart
-        self._date_arrivee = date_arrivee
+        self._date_fin = date_fin
         self._lieu_depart = lieu_depart
         self._lieu_arrivee = lieu_arrivee
         self._distance = distance
@@ -37,8 +37,8 @@ class Trajet(object):
         return self._date_depart
 
     @property
-    def date_arrivee(self):
-        return self._date_arrivee
+    def date_fin(self):
+        return self._date_fin
 
     @property
     def lieu_depart(self):
@@ -61,7 +61,7 @@ class Trajet(object):
         return self._client
 
     def __str__(self):
-        return " Trajet de {} à {}, du {} au {}, en {}".format(self._lieu_depart, self._lieu_arrivee,self._date_depart,self._date_arrivee, self._voiture)
+        return " Trajet de {} à {}, du {} au {}, en {}".format(self._lieu_depart, self._lieu_arrivee,self._date_depart,self._date_fin, self._voiture)
 
 
 
