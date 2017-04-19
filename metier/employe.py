@@ -128,8 +128,6 @@ class Responsable(Vendeur):
 
     #def recruter_vendeur(self):
 
-
-
 class Employe_siege(Employe):
     """
     Troisième et dernier type d'employé, celui du siège, qui peut décider de transferts de voitures entre Agence ou bien
