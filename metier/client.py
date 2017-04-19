@@ -3,11 +3,11 @@ class Client(object):
         """
         Constructeur de la classe Client
 
-        :param nom:
+        :param nom: nom du client
         :type nom: string
-        :param prenom:
+        :param prenom: prenom du client
         :type prenom: string
-        :param date_naiss:
+        :param date_naiss: date de naissance du client au format date
         :type date_naissance: date
         """
 

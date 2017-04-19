@@ -7,19 +7,19 @@ class Trajet(object):
         """
         Constructeur de la classe Trajet
 
-        :param date_debut:
+        :param date_debut: date de debut de la location
         :type date_debut: date
-        :param date_fin:
+        :param date_fin: date de fin de la location
         :type date_fin: date
-        :param lieu_depart:
+        :param lieu_depart: lieu de depart de la location correspondant a une agence
         :type lieu_depart: Agence
-        :param lieu_arrivee:
+        :param lieu_arrivee: lieu d'arrivee de la location correspondant a une agence
         :type lieu_arrivee: Agence
-        :param distance:
+        :param distance: distance du trajet effectue par le client
         :type distance: integer
-        :param voiture:
+        :param voiture: voiture choisie par le client
         :type voiture: Voiture
-        :param client:
+        :param client: client qui effectue une location
         :type client: Client
         """
 
@@ -69,17 +69,17 @@ class Trajet(object):
         """
         Fonction qui permet de changer le lieu d'arrivée d'un trajet
 
-        :param nouveau_lieu:
+        :param nouveau_lieu: nouveau lieu d'arrivee de la location correspondant à une agence
         :type nouveau_lieu: Agence
         """
-        pass
+        self.lieu_arrivee = nouveau_lieu
 
     def changer_date_fin(self, nouvelle_date):
         """
         Fonction qui permet de changer la date d'arrivée d'un trajet
 
-        :param nouvelle_date:
+        :param nouvelle_date: nouvelle date de rendu de la location
         :type nouvelle_date: date
         """
-        pass
+        self.date_fin = nouvelle_date
 

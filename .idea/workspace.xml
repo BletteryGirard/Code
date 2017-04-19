@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
+    <list default="true" id="c7f4f317-4105-453a-9fc5-5881b2eac9e2" name="Default" comment="" />
+=======
     <list default="true" id="c7f4f317-4105-453a-9fc5-5881b2eac9e2" name="Default" comment="">
+<<<<<<< HEAD
 <<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
 =======
@@ -9,7 +13,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metier/employe.py" afterPath="$PROJECT_DIR$/metier/employe.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metier/trajet.py" afterPath="$PROJECT_DIR$/metier/trajet.py" />
 >>>>>>> fonction_alex
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metier/employe.py" afterPath="$PROJECT_DIR$/metier/employe.py" />
+>>>>>>> fonction_alex
     </list>
+>>>>>>> Stashed changes
     <ignored path="Code.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +40,11 @@
       <file leaf-file-name="agence.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/metier/agence.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="240">
+=======
+            <state relative-caret-position="272">
+>>>>>>> fonction_alex
               <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding />
             </state>
@@ -41,7 +54,11 @@
       <file leaf-file-name="voiture.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/metier/voiture.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
+<<<<<<< Updated upstream
+            <state relative-caret-position="952">
+=======
+            <state relative-caret-position="840">
+>>>>>>> Stashed changes
               <caret line="56" column="25" lean-forward="false" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
               <folding />
             </state>
@@ -52,10 +69,19 @@
         <entry file="file://$PROJECT_DIR$/metier/trajet.py">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="539">
               <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
 =======
             <state relative-caret-position="419">
+              <caret line="76" column="24" lean-forward="false" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+>>>>>>> fonction_alex
+=======
+<<<<<<< Updated upstream
+            <state relative-caret-position="1258">
+=======
+            <state relative-caret-position="1155">
+>>>>>>> Stashed changes
               <caret line="76" column="24" lean-forward="false" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
 >>>>>>> fonction_alex
               <folding>
@@ -68,7 +94,7 @@
       <file leaf-file-name="client.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/metier/client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
+            <state relative-caret-position="493">
               <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
@@ -79,11 +105,21 @@
         <entry file="file://$PROJECT_DIR$/metier/employe.py">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="1695">
               <caret line="113" column="7" lean-forward="true" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
 =======
             <state relative-caret-position="2010">
               <caret line="134" column="50" lean-forward="false" selection-start-line="134" selection-start-column="50" selection-end-line="134" selection-end-column="50" />
+>>>>>>> fonction_alex
+=======
+<<<<<<< Updated upstream
+            <state relative-caret-position="487">
+              <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+=======
+            <state relative-caret-position="224">
+              <caret line="128" column="16" lean-forward="false" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
+>>>>>>> Stashed changes
 >>>>>>> fonction_alex
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -96,6 +132,7 @@
       <file leaf-file-name="console.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ihm/console.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="269">
 <<<<<<< HEAD
               <caret line="42" column="45" lean-forward="true" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
@@ -108,6 +145,14 @@
               </folding>
 =======
               <caret line="41" column="47" lean-forward="true" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+=======
+<<<<<<< Updated upstream
+            <state relative-caret-position="663">
+=======
+            <state relative-caret-position="585">
+>>>>>>> Stashed changes
+              <caret line="41" column="47" lean-forward="false" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+>>>>>>> fonction_alex
               <folding />
 >>>>>>> fonction_alex
             </state>
@@ -142,15 +187,21 @@
         <option value="$PROJECT_DIR$/__main__.py" />
         <option value="$PROJECT_DIR$/metier/client.py" />
         <option value="$PROJECT_DIR$/ihm/console.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/metier/employe.py" />
         <option value="$PROJECT_DIR$/metier/trajet.py" />
+=======
+        <option value="$PROJECT_DIR$/metier/trajet.py" />
+        <option value="$PROJECT_DIR$/metier/employe.py" />
+>>>>>>> fonction_alex
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1366" />
-    <option name="height" value="741" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -170,7 +221,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -227,12 +278,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.voiture">
     <configuration default="false" name="agence" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -449,8 +500,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1366" height="741" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -548,7 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -556,9 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -861,7 +908,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
           <folding />
+=======
+>>>>>>> fonction_alex
         </state>
       </provider>
     </entry>
@@ -869,15 +919,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="614">
           <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+<<<<<<< HEAD
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
+=======
+>>>>>>> fonction_alex
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/metier/agence.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="240">
+=======
+        <state relative-caret-position="272">
+>>>>>>> fonction_alex
           <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding />
         </state>
@@ -885,7 +942,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/metier/voiture.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="194">
+=======
+<<<<<<< Updated upstream
+        <state relative-caret-position="952">
+=======
+        <state relative-caret-position="840">
+>>>>>>> Stashed changes
+>>>>>>> fonction_alex
           <caret line="56" column="25" lean-forward="false" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
           <folding />
         </state>
@@ -893,12 +958,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/metier/client.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="435">
+=======
+        <state relative-caret-position="493">
+>>>>>>> fonction_alex
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/metier/employe.py">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -914,11 +984,23 @@
             <element signature="e#0#25#0" expanded="true" />
 >>>>>>> fonction_alex
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/ihm/console.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+        <state relative-caret-position="663">
+=======
+        <state relative-caret-position="585">
+>>>>>>> Stashed changes
+          <caret line="41" column="47" lean-forward="false" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+          <folding />
+>>>>>>> fonction_alex
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ihm/console.py">
+    <entry file="file://$PROJECT_DIR$/metier/trajet.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="269">
 <<<<<<< HEAD
           <caret line="42" column="45" lean-forward="true" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
@@ -933,17 +1015,38 @@
           <caret line="41" column="47" lean-forward="true" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
           <folding />
 >>>>>>> fonction_alex
+=======
+<<<<<<< Updated upstream
+        <state relative-caret-position="1258">
+=======
+        <state relative-caret-position="1155">
+>>>>>>> Stashed changes
+          <caret line="76" column="24" lean-forward="false" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+>>>>>>> fonction_alex
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/metier/trajet.py">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="539">
           <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
 =======
         <state relative-caret-position="419">
           <caret line="76" column="24" lean-forward="false" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+>>>>>>> fonction_alex
+=======
+<<<<<<< Updated upstream
+        <state relative-caret-position="487">
+          <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+=======
+        <state relative-caret-position="224">
+          <caret line="128" column="16" lean-forward="false" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
+>>>>>>> Stashed changes
 >>>>>>> fonction_alex
           <folding>
             <element signature="e#0#25#0" expanded="true" />
