@@ -3,13 +3,13 @@ class Agence(object):
         """
         Constructeur de la classe Agence
 
-        :param ville:
+        :param ville: nom de la ville ou se situe l'agence correpondante
         :type ville: string
-        :param nom:
+        :param nom: nom de l'agence
         :type nom: string
-        :param liste_client:
+        :param liste_client: liste des clients ayant deja fait une location dans une agence
         :type liste_client: liste de Client
-        :param liste_voiture:
+        :param liste_voiture: liste des voitures appartenants aux différentes agences
         :type liste_voiture: liste de Voiture
         """
 

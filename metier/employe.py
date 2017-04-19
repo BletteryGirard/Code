@@ -8,11 +8,11 @@ class Employe(object):
         """
         Constructeur de la classe Employe
 
-        :param nom:
+        :param nom: nom de l'employe
         :type nom: string
-        :param prenom:
+        :param prenom: prneom de l'employe
         :type prenom: string
-        :param agence:
+        :param agence: nom de l'agence
         :type agence: Agence
         """
 
@@ -47,11 +47,11 @@ class Vendeur(Employe):
         """
         Fonction qui initie l'ensemble du processus de location
 
-        :param client:
+        :param client: client qui effectue une location
         :type client: Client
-        :param voiture:
+        :param voiture: voiture louée par un client
         :type voiture: Voiture
-        :param trajet:
+        :param trajet: trajet choisi par un client d'une agence à une autre
         :type trajet: Trajet
         """
         pass
@@ -60,9 +60,9 @@ class Vendeur(Employe):
         """
         Fonction qui crée un nouvel objet trajet, et l'ajoute dans la BDD.
 
-        :param client:
+        :param client: client qui effectue une location
         :type client: Client
-        :param voiture:
+        :param voiture: voiture louée par le client
         :type voiture: Voiture
         """
         pass
@@ -71,11 +71,11 @@ class Vendeur(Employe):
         """
         Fonction qui crée une nouvelle fiche client (objet client de la base de donnée)
 
-        :param nom_client:
+        :param nom_client: nom du nouveau client
         :type nom_client: string
-        :param prenom_client:
+        :param prenom_client: prenom du nouveau client
         :type prenom_client: string
-        :param date_naiss_client:
+        :param date_naiss_client: date de naissance du client au format date
         :type date_naiss_client: date
         """
         pass
@@ -84,10 +84,29 @@ class Vendeur(Employe):
         """
         Fonction qui calcule le coût de location pour un certain trajet
 
-        :param trajet:
+        :param trajet: trajet d'un client partant d'une agence et arrivant à cette même agence ou une autre
         :type trajet: Trajet
         """
         pass
+
+
+    def creer_trajet(self, date_debut, date_fin, lieu_debut, lieu_arrivee, distance):
+        """
+        Fonction qui crée le trajet effectué par le client.
+
+        :param date_debut: date de debut du trajet choisi par le client
+        :type date_debut: date
+        :param date_fin: date de fin du trajet choisi par le client
+        :type date_fin: date
+        :param lieu_debut: lieu de depart choisi par le client correspondant a une agence
+        :type lieu_debut: Agence
+        :param lieu_arrivee: lieu d'arrivee choisi par le client correspondant a une agence
+        :type lieu_arrivee: Agence
+        :param distance: distance parcourue par le client lors de la location
+        :type distance: integer
+        """
+        pass
+
 
 
 class Responsable(Vendeur):
@@ -102,27 +121,27 @@ class Responsable(Vendeur):
         """
         Méthode qui lance la mise à l'entretien d'une voiture
 
-        :param voiture:
+        :param voiture: voiture choisi par le responsable necessitant un entretien
         :type voiture: Voiture
         """
         pass
 
+    #def recruter_vendeur(self):
 
 class Employe_siege(Employe):
     """
-    Troisième et dernier type d'employé, celui du siège, qui peut décider de transferts de voitures entre Agence
+    Troisième et dernier type d'employé, celui du siège, qui peut décider de transferts de voitures entre Agence ou bien
+    calculer les statistiques propre à une agence.
     """
 
-    def transferer_voiture(self, agence_depart, agence_arrivee, liste_voiture):
+    def transferer_voiture(self, agence_depart, agence_arrivee):
         """
         Fonction qui permet de transférer certaines voitures d'une agence à une autre
 
-        :param agence_depart:
+        :param agence_depart: agence de depart de la location
         :type agence_depart: Agence
-        :param agence_arrivee:
+        :param agence_arrivee: agence d'arrivee de la location
         :type agence_arrivee: Agence
-        :param liste_voiture:
-        :type liste_voiture: liste de Voiture
         """
         pass
 
@@ -130,7 +149,7 @@ class Employe_siege(Employe):
         """
         Fonction qui retourne les statistiques propres à une agence.
 
-        :param agence:
+        :param agence: correspond à l'agence dont on veut les statistiques
         :type agence: Agence
         :return:
         """

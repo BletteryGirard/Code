@@ -1,21 +1,21 @@
 class Voiture(object):
-    def __init__(self, immatriculation, modele, km, annee_creation, nb_places, boite_vit, etat = "Disponible"):
+    def __init__(self, immatriculation, modele, km, annee_creation, nb_places, boite_vitesse_auto, etat = "Disponible"):
         """
         Constructeur de la classe Voiture
 
-        :param immatriculation:
+        :param immatriculation: numéro d'imatriculation d'une voiture
         :type immatriculation: string
-        :param modele:
+        :param modele: nom du modele de la voiture
         :type modele: string
-        :param km:
-        :type km: integer / float (à voir) !!!!
-        :param annee_creation:
-        :type annee_creation: integer ou date à voir !!!!
-        :param nb_places:
+        :param km: kilometrage de la voiture
+        :type km: integer
+        :param annee_creation: annee de creation de la voiture
+        :type annee_creation: integer
+        :param nb_places: nombre de places dans la voiture
         :type nb_places: integer
-        :param boite_vit:
-        :type boite_vit: string
-        :param etat: paramètre optionnel, par défaut une voiture est dispo, définit si une voiture est dispo, en entretien, louée, en transfert.
+        :param boite_vitesse_auto: 0 si ce n'est pas une boite automatique, 1 si c'en est une
+        :type boite_vitesse_auto: integer
+        :param etat: paramètre optionnel, par défaut une voiture est dispo, définit si une voiture est dispo, en entretien, louée, en transfert
         :type etat: string (vérifier si truc spécial pour énumération) !!!!
         """
 
@@ -24,7 +24,7 @@ class Voiture(object):
         self._km = km
         self._annee_creation = annee_creation
         self._nb_places = nb_places
-        self._boite_vit = boite_vit
+        self._boite_vitesse_auto = boite_vitesse_auto
         self._etat = etat
 
     # On définit les accesseurs des attributs
@@ -49,8 +49,8 @@ class Voiture(object):
         return self._nb_places
 
     @property
-    def boite_vit(self):
-        return self._boite_vit
+    def boite_vitesse_auto(self):
+        return self._boite_vitesse_auto
 
     @property
     def etat(self):
@@ -65,16 +65,17 @@ class Voiture(object):
         """
         Fonction qui permet de modifier l'état de disponibilité de la voiture
 
-        :param nouvel_etat:
+        :param nouvel_etat: définit si une voiture est dispo, en entretien, louée ou en transfert
         :type nouvel_etat: string (vérifier si truc spécial pour énumération) !!!!
         """
-        pass
+        self.etat = nouvel_etat
 
     def changer_km(self, valeur):
         """
         Fonction qui permet de mettre à jour le kilométrage d'une voiture à la fin de chaque trajet
 
-        :param valeur: nombres de km du trajet fait (à rajouter au kilométrage de la voiture
-        :type valeur: integer / float (à voir) !!!!
+        :param valeur: nombres de km du trajet fait (à rajouter au kilométrage de la voiture)
+        :type valeur: integer
         """
-        pass
+        self.km += valeur
+

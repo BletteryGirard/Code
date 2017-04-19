@@ -3,27 +3,27 @@ from client import Client
 from voiture import Voiture
 
 class Trajet(object):
-    def __init__(self, date_depart, date_fin, lieu_depart, lieu_arrivee, distance, voiture, client):
+    def __init__(self, date_debut, date_fin, lieu_depart, lieu_arrivee, distance, voiture, client):
         """
         Constructeur de la classe Trajet
 
-        :param date_depart:
-        :type date_depart: date
-        :param date_fin:
+        :param date_debut: date de debut de la location
+        :type date_debut: date
+        :param date_fin: date de fin de la location
         :type date_fin: date
-        :param lieu_depart:
+        :param lieu_depart: lieu de depart de la location correspondant a une agence
         :type lieu_depart: Agence
-        :param lieu_arrivee:
+        :param lieu_arrivee: lieu d'arrivee de la location correspondant a une agence
         :type lieu_arrivee: Agence
-        :param distance:
+        :param distance: distance du trajet effectue par le client
         :type distance: integer
-        :param voiture:
+        :param voiture: voiture choisie par le client
         :type voiture: Voiture
-        :param client:
+        :param client: client qui effectue une location
         :type client: Client
         """
 
-        self._date_depart = date_depart
+        self._date_debut = date_debut
         self._date_fin = date_fin
         self._lieu_depart = lieu_depart
         self._lieu_arrivee = lieu_arrivee
@@ -33,8 +33,8 @@ class Trajet(object):
 
     # On définit les accesseurs des attributs
     @property
-    def date_depart(self):
-        return self._date_depart
+    def date_debut(self):
+        return self._date_debut
 
     @property
     def date_fin(self):
@@ -61,25 +61,25 @@ class Trajet(object):
         return self._client
 
     def __str__(self):
-        return " Trajet de {} à {}, du {} au {}, en {}".format(self._lieu_depart, self._lieu_arrivee,self._date_depart,self._date_fin, self._voiture)
+        return " Trajet de {} à {}, du {} au {}, en {}".format(self._lieu_depart, self._lieu_arrivee,self._date_debut,self._date_fin, self._voiture)
 
 
 
-    def changer_lieu(self, nouveau_lieu):
+    def changer_lieu_arrivee(self, nouveau_lieu):
         """
         Fonction qui permet de changer le lieu d'arrivée d'un trajet
 
-        :param nouveau_lieu:
+        :param nouveau_lieu: nouveau lieu d'arrivee de la location correspondant à une agence
         :type nouveau_lieu: Agence
         """
-        pass
+        self.lieu_arrivee = nouveau_lieu
 
-    def changer_date(self, nouvelle_date):
+    def changer_date_fin(self, nouvelle_date):
         """
         Fonction qui permet de changer la date d'arrivée d'un trajet
 
-        :param nouvelle_date:
+        :param nouvelle_date: nouvelle date de rendu de la location
         :type nouvelle_date: date
         """
-        pass
+        self.date_fin = nouvelle_date
 
