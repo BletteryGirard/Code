@@ -6,6 +6,28 @@
 =======
     <list default="true" id="c7f4f317-4105-453a-9fc5-5881b2eac9e2" name="Default" comment="">
 <<<<<<< HEAD
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metier/agence.py" afterPath="$PROJECT_DIR$/metier/agence.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metier/client.py" afterPath="$PROJECT_DIR$/metier/client.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metier/employe.py" afterPath="$PROJECT_DIR$/metier/employe.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metier/trajet.py" afterPath="$PROJECT_DIR$/metier/trajet.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metier/voiture.py" afterPath="$PROJECT_DIR$/metier/voiture.py" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bdd/config_bdd.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bdd/requetes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metier/employe.py" afterPath="$PROJECT_DIR$/metier/employe.py" />
+>>>>>>> Stashed changes
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bdd/config_bdd.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bdd/requetes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metier/employe.py" afterPath="$PROJECT_DIR$/metier/employe.py" />
+>>>>>>> Stashed changes
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -18,6 +40,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metier/employe.py" afterPath="$PROJECT_DIR$/metier/employe.py" />
 >>>>>>> fonction_alex
+<<<<<<< HEAD
 =======
 <<<<<<< Updated upstream
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -32,6 +55,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metier/employe.py" afterPath="$PROJECT_DIR$/metier/employe.py" />
 >>>>>>> Stashed changes
+>>>>>>> bdd_emile
+=======
+>>>>>>> master
 >>>>>>> bdd_emile
     </list>
 >>>>>>> Stashed changes
@@ -58,13 +84,24 @@
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+            <state relative-caret-position="240">
+=======
+>>>>>>> bdd_emile
+<<<<<<< HEAD
             <state relative-caret-position="240">
 =======
             <state relative-caret-position="272">
 >>>>>>> fonction_alex
+<<<<<<< HEAD
 =======
 <<<<<<< Updated upstream
             <state relative-caret-position="240">
+>>>>>>> bdd_emile
+=======
+>>>>>>> master
 >>>>>>> bdd_emile
               <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding />
@@ -76,13 +113,22 @@
         <entry file="file://$PROJECT_DIR$/metier/voiture.py">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            <state relative-caret-position="840">
+=======
+>>>>>>> bdd_emile
 <<<<<<< Updated upstream
             <state relative-caret-position="952">
 =======
             <state relative-caret-position="840">
 >>>>>>> Stashed changes
+<<<<<<< HEAD
 =======
             <state relative-caret-position="840">
+>>>>>>> bdd_emile
+=======
+>>>>>>> master
 >>>>>>> bdd_emile
               <caret line="56" column="25" lean-forward="false" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
               <folding>
@@ -95,6 +141,18 @@
       <file leaf-file-name="trajet.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/metier/trajet.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="300">
+              <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+=======
+            <state relative-caret-position="615">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+>>>>>>> Stashed changes
+=======
+            <state relative-caret-position="615">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+>>>>>>> Stashed changes
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -112,6 +170,7 @@
 >>>>>>> Stashed changes
               <caret line="76" column="24" lean-forward="false" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
 >>>>>>> fonction_alex
+<<<<<<< HEAD
 =======
             <state relative-caret-position="300">
               <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
@@ -119,6 +178,9 @@
             <state relative-caret-position="615">
               <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
 >>>>>>> Stashed changes
+>>>>>>> bdd_emile
+=======
+>>>>>>> master
 >>>>>>> bdd_emile
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
@@ -131,11 +193,20 @@
         <entry file="file://$PROJECT_DIR$/bdd/config_bdd.py">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="493">
               <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
 =======
             <state relative-caret-position="210">
               <caret line="14" column="55" lean-forward="false" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+>>>>>>> bdd_emile
+=======
+            <state relative-caret-position="210">
+              <caret line="14" column="55" lean-forward="false" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+=======
+            <state relative-caret-position="493">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+>>>>>>> master
 >>>>>>> bdd_emile
               <folding />
             </state>
@@ -143,6 +214,17 @@
         </entry>
       </file>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+      <file leaf-file-name="employe.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/metier/employe.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2190">
+              <caret line="148" column="11" lean-forward="false" selection-start-line="148" selection-start-column="11" selection-end-line="148" selection-end-column="11" />
+=======
+>>>>>>> bdd_emile
       <file leaf-file-name="employe.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/metier/employe.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -163,6 +245,7 @@
               <caret line="128" column="16" lean-forward="false" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
 >>>>>>> Stashed changes
 >>>>>>> fonction_alex
+<<<<<<< HEAD
 =======
 <<<<<<< Updated upstream
       <file leaf-file-name="employe.py" pinned="false" current-in-tab="false">
@@ -170,6 +253,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2190">
               <caret line="148" column="11" lean-forward="false" selection-start-line="148" selection-start-column="11" selection-end-line="148" selection-end-column="11" />
+>>>>>>> bdd_emile
+=======
+>>>>>>> master
 >>>>>>> bdd_emile
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -183,6 +269,26 @@
         <entry file="file://$PROJECT_DIR$/ihm/console.py">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            <state relative-caret-position="120">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+=======
+      <file leaf-file-name="requetes.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bdd/requetes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+>>>>>>> Stashed changes
+=======
+      <file leaf-file-name="requetes.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bdd/requetes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+>>>>>>> Stashed changes
+=======
+>>>>>>> bdd_emile
 <<<<<<< HEAD
             <state relative-caret-position="269">
 <<<<<<< HEAD
@@ -204,6 +310,7 @@
 >>>>>>> Stashed changes
               <caret line="41" column="47" lean-forward="false" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
 >>>>>>> fonction_alex
+<<<<<<< HEAD
 =======
             <state relative-caret-position="120">
               <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
@@ -214,6 +321,9 @@
             <state relative-caret-position="285">
               <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
 >>>>>>> Stashed changes
+>>>>>>> bdd_emile
+=======
+>>>>>>> master
 >>>>>>> bdd_emile
               <folding />
 >>>>>>> fonction_alex
@@ -251,12 +361,31 @@
         <option value="$PROJECT_DIR$/ihm/console.py" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+        <option value="$PROJECT_DIR$/metier/trajet.py" />
+=======
+=======
+>>>>>>> Stashed changes
+        <option value="$PROJECT_DIR$/metier/employe.py" />
+        <option value="$PROJECT_DIR$/metier/trajet.py" />
+        <option value="$PROJECT_DIR$/bdd/requetes.py" />
+        <option value="$PROJECT_DIR$/bdd/config_bdd.py" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> bdd_emile
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/metier/employe.py" />
         <option value="$PROJECT_DIR$/metier/trajet.py" />
 =======
         <option value="$PROJECT_DIR$/metier/trajet.py" />
         <option value="$PROJECT_DIR$/metier/employe.py" />
 >>>>>>> fonction_alex
+<<<<<<< HEAD
 =======
 <<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/metier/trajet.py" />
@@ -266,6 +395,9 @@
         <option value="$PROJECT_DIR$/bdd/requetes.py" />
         <option value="$PROJECT_DIR$/bdd/config_bdd.py" />
 >>>>>>> Stashed changes
+>>>>>>> bdd_emile
+=======
+>>>>>>> master
 >>>>>>> bdd_emile
       </list>
     </option>
@@ -295,11 +427,23 @@
     </navigator>
     <panes>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< Updated upstream
 =======
       <pane id="Scope" />
 >>>>>>> Stashed changes
+>>>>>>> bdd_emile
+=======
+<<<<<<< Updated upstream
+=======
+      <pane id="Scope" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> master
 >>>>>>> bdd_emile
       <pane id="Scratches" />
       <pane id="ProjectPane">
@@ -359,12 +503,25 @@
         </subPane>
       </pane>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <pane id="Scope" />
 =======
 <<<<<<< Updated upstream
       <pane id="Scope" />
 =======
 >>>>>>> Stashed changes
+>>>>>>> bdd_emile
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+      <pane id="Scope" />
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+      <pane id="Scope" />
+>>>>>>> master
 >>>>>>> bdd_emile
     </panes>
   </component>
@@ -588,9 +745,16 @@
   </component>
   <component name="ToolWindowManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
 =======
     <frame x="0" y="23" width="1366" height="741" extended-state="6" />
+>>>>>>> bdd_emile
+=======
+    <frame x="0" y="23" width="1366" height="741" extended-state="6" />
+=======
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+>>>>>>> master
 >>>>>>> bdd_emile
     <editor active="false" />
     <layout>
@@ -650,6 +814,10 @@
   </component>
   <component name="editorHistoryManager">
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> bdd_emile
     <entry file="file://$PROJECT_DIR$/metier/voiture.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
@@ -672,6 +840,11 @@
     </entry>
 =======
 >>>>>>> Stashed changes
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> Stashed changes
+>>>>>>> bdd_emile
     <entry file="file://$PROJECT_DIR$/metier/client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1015,6 +1188,7 @@
     <entry file="file://$PROJECT_DIR$/__main__.py">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
 <<<<<<< HEAD
@@ -1033,6 +1207,29 @@
         <state relative-caret-position="120">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
 >>>>>>> bdd_emile
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+        <state relative-caret-position="840">
+          <caret line="56" column="25" lean-forward="false" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+=======
+=======
+>>>>>>> Stashed changes
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ihm/console.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+>>>>>>> master
+>>>>>>> bdd_emile
           <folding />
 =======
 >>>>>>> fonction_alex
@@ -1040,6 +1237,20 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/metier/employe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1635">
+          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+          <folding>
+            <marker date="1492595958000" expanded="true" signature="22:2651" ph="..." />
+=======
+>>>>>>> bdd_emile
     <entry file="file://$PROJECT_DIR$/bdd/acces_bdd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="614">
@@ -1047,6 +1258,7 @@
 <<<<<<< HEAD
           <folding>
             <element signature="e#0#14#0" expanded="true" />
+<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/metier/employe.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1056,6 +1268,9 @@
           <folding>
             <marker date="1492595958000" expanded="true" signature="22:2651" ph="..." />
 >>>>>>> bdd_emile
+=======
+>>>>>>> master
+>>>>>>> bdd_emile
           </folding>
 =======
 >>>>>>> fonction_alex
@@ -1064,6 +1279,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/metier/agence.py">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+>>>>>>> Stashed changes
+=======
+>>>>>>> bdd_emile
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
         <state relative-caret-position="240">
@@ -1080,6 +1313,7 @@
         <state relative-caret-position="240">
 >>>>>>> bdd_emile
           <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+>>>>>>> master
           <folding />
         </state>
       </provider>
@@ -1087,6 +1321,16 @@
     <entry file="file://$PROJECT_DIR$/metier/voiture.py">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        <state relative-caret-position="554">
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> bdd_emile
 <<<<<<< HEAD
         <state relative-caret-position="194">
 =======
@@ -1097,10 +1341,14 @@
 >>>>>>> Stashed changes
 >>>>>>> fonction_alex
           <caret line="56" column="25" lean-forward="false" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+<<<<<<< HEAD
 =======
         <state relative-caret-position="554">
           <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
 >>>>>>> Stashed changes
+>>>>>>> bdd_emile
+=======
+>>>>>>> master
 >>>>>>> bdd_emile
           <folding />
         </state>
@@ -1110,10 +1358,23 @@
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+=======
+>>>>>>> Stashed changes
+        <state relative-caret-position="419">
+=======
+>>>>>>> bdd_emile
+<<<<<<< HEAD
         <state relative-caret-position="435">
 =======
         <state relative-caret-position="493">
 >>>>>>> fonction_alex
+<<<<<<< HEAD
 =======
 <<<<<<< Updated upstream
         <state relative-caret-position="0">
@@ -1124,9 +1385,49 @@
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
 >>>>>>> Stashed changes
+=======
+>>>>>>> master
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/metier/trajet.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+        <state relative-caret-position="614">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+=======
+=======
+>>>>>>> Stashed changes
+        <state relative-caret-position="135">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+>>>>>>> Stashed changes
+>>>>>>> bdd_emile
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bdd/requetes.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+        <state relative-caret-position="120">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+=======
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+>>>>>>> Stashed changes
+=======
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+>>>>>>> Stashed changes
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/metier/employe.py">
@@ -1173,6 +1474,7 @@
           </folding>
 =======
           <caret line="41" column="47" lean-forward="true" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/metier/trajet.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1199,6 +1501,9 @@
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
 >>>>>>> Stashed changes
 >>>>>>> bdd_emile
+=======
+>>>>>>> master
+>>>>>>> bdd_emile
           <folding />
 >>>>>>> fonction_alex
 =======
@@ -1216,6 +1521,20 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/bdd/acces_bdd.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+        <state relative-caret-position="2190">
+          <caret line="148" column="11" lean-forward="false" selection-start-line="148" selection-start-column="11" selection-end-line="148" selection-end-column="11" />
+=======
+        <state relative-caret-position="615">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+>>>>>>> Stashed changes
+=======
+>>>>>>> bdd_emile
     <entry file="file://$PROJECT_DIR$/metier/trajet.py">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -1235,6 +1554,7 @@
           <caret line="128" column="16" lean-forward="false" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
 >>>>>>> Stashed changes
 >>>>>>> fonction_alex
+<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/bdd/acces_bdd.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1242,12 +1562,19 @@
         <state relative-caret-position="2190">
           <caret line="148" column="11" lean-forward="false" selection-start-line="148" selection-start-column="11" selection-end-line="148" selection-end-column="11" />
 >>>>>>> bdd_emile
+=======
+>>>>>>> master
+>>>>>>> bdd_emile
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> bdd_emile
     <entry file="file://$PROJECT_DIR$/metier/client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -1270,6 +1597,11 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> Stashed changes
+>>>>>>> bdd_emile
     <entry file="file://$PROJECT_DIR$/bdd/config_bdd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
