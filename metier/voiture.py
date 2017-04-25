@@ -1,5 +1,5 @@
 class Voiture(object):
-    def __init__(self, immatriculation, modele, km, annee_creation, nb_places, boite_vitesse_auto, etat = "Disponible"):
+    def __init__(self, immatriculation, modele, km, annee_creation, nb_places, boite_vitesse_auto, agence, etat = "Disponible"):
         """
         Constructeur de la classe Voiture
 
@@ -25,6 +25,7 @@ class Voiture(object):
         self._annee_creation = annee_creation
         self._nb_places = nb_places
         self._boite_vitesse_auto = boite_vitesse_auto
+        self._agence = agence
         self._etat = etat
 
     # On définit les accesseurs des attributs
@@ -51,6 +52,10 @@ class Voiture(object):
     @property
     def boite_vitesse_auto(self):
         return self._boite_vitesse_auto
+
+    @property
+    def agence(self):
+        return self._agence
 
     @property
     def etat(self):
