@@ -3,7 +3,7 @@ from client import Client
 from voiture import Voiture
 
 class Trajet(object):
-    def __init__(self, date_debut, date_fin, lieu_depart, lieu_arrivee, distance, voiture, client):
+    def __init__(self, date_debut, date_fin, lieu_depart, lieu_arrivee, distance, voiture, client, cout):
         """
         Constructeur de la classe Trajet
 
@@ -21,6 +21,7 @@ class Trajet(object):
         :type voiture: Voiture
         :param client: client qui effectue une location
         :type client: Client
+        :param
         """
 
         self._date_debut = date_debut

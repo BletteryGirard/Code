@@ -18,9 +18,7 @@ def creer_bdd(db_name):
     req = """create table if not exists Etat (etat text primary key)"""
     executer_requete(cur, req)
 
-    req = """create table if not exists Agence (nom text,
-                                                    ville text,
-                                                    primary key(nom, ville))"""
+    req = """create table if not exists Agence (nom text primary key)"""
     executer_requete(cur, req)
 
     req = """create table if not exists Client (num_client integer primary key,
@@ -30,7 +28,8 @@ def creer_bdd(db_name):
     executer_requete(cur, req)
 
     req = """create table if not exists Voiture (immatriculation text primary key,
-                                                    modele integer,
+                                                    type text,
+                                                    modele text,
                                                     kilometrage integer,
                                                     annee_de_creation integer,
                                                     nb_places integer,
@@ -58,6 +57,7 @@ def creer_bdd(db_name):
                                                     lieu_arrivee text,
                                                     client text,
                                                     voiture text,
+                                                    cout integer,
                                                     foreign key(lieu_depart) references Agence(nom),
                                                     foreign key(lieu_arrivee) references Agence(nom),
                                                     foreign key(client) references Client(num_client),
@@ -77,25 +77,20 @@ def creer_bdd(db_name):
         r.inserer_ligne(cur, 'Statut', ('statut',), (s,))
     valider_modifs(conn)
 
-    agences = (
-        ('Siege', 'Nouméa'),
-        ('Paris Nord', 'Paris'),
-        ('Paris Sud', 'Paris'),
-        ('Gros-Bois', 'Moret-sur-Loing'),
-        ('Quartier Nord', 'Villeneuve-Saint-Georges'),
-        ('Saint-Michel', 'Flers')
-    )
-    colonnes = ('nom', 'ville')
+    agences = ('Siege', 'Paris Nord', 'Paris Sud','Moret-sur-Loing Gros-Bois', 'Villeneuve-Saint-Georges Quartier Nord', 'Flers Saint-Michel')
     for a in agences:
-        r.inserer_ligne(cur, 'Agence', colonnes, a)
+        r.inserer_ligne(cur, 'Agence', ('nom',), (a,))
     valider_modifs(conn)
 
     voitures = (
-        ('AA000AA', 'Clio', 35000, 1999, 5, 0, 'Paris Nord', 'Disponible'),
-        ('BB111BB', '4L', 125000, 1985, 4, 0, 'Saint-Michel', 'En entretien'),
-        ('CC222CC', 'Trafic', 90000, 2000, 9, 1, 'Quartier Nord', 'Empruntée')
+        ('AA000AA', 'Citadine', 'Clio', 35000, 1999, 5, 0, 'Paris Nord', 'Disponible'),
+        ('BB111BB', 'Citadine', '4L', 125000, 1985, 4, 0, 'Saint-Michel', 'En entretien'),
+        ('CC222CC', 'Familial', 'Trafic', 90000, 2000, 9, 1, 'Quartier Nord', 'Empruntée'),
+        ('DD333DD', 'Utilitaire', 'Trafic', 135000, 1999, 3, 0, 'Quartier Nord', 'En transfert'),
+        ('EE444EE', 'Berline', 'A8', 10000, 2010, 5, 1, 'Quartier Nord', 'Disponible')
     )
     colonnes = ('immatriculation',
+                'type',
                 'modele',
                 'kilometrage',
                 'annee_de_creation',
