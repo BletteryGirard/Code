@@ -59,3 +59,8 @@ def demander(msg):
     :return: texte saisi par le joueur
     """
     return input(msg)
+
+
+if __name__ == '__main__':
+    prenom = demander('qui es-tu ?')
+    print(prenom)
